@@ -1,0 +1,14 @@
+git+https://github.com/KurimuzonAkuma/pyrogram
+tgcrypto
+aiohttp
+pymongo[srv]==4.9.2
+motor==3.6.0
+marshmallow==3.19.0
+umongo==3.1.0
+requests
+bs4
+apscheduler
+psutil
+python-dotenv
+pytz
+aiofiles
