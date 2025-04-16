@@ -12,14 +12,14 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_searcher')
-API_ID = int(environ.get('API_ID', '9254436'))
-API_HASH = environ.get('API_HASH', '42665ffe4407fbc3f59c412caa9d84d3')
-BOT_TOKEN="8023544407:AAF6JtdggxQZO6FzNlsUhIyHmNXKDhkHQtk"
+API_ID = int(environ.get('API_ID', '1436542'))
+API_HASH = environ.get('API_HASH', 'ace9d0fb8f46300776a985ca357bdfff')
+BOT_TOKEN="8055760160:AAFVOatsbwtMvSNj7T_-JlxqFl8l9L5aLDM"
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = False 
-PICS = (environ.get('PICS', 'https://envs.sh/IxE.jpg?biuvm=1 https://envs.sh/IxD.jpg?aXHs4=1 https://envs.sh/IV-.jpg?Z20Yt=1')).split()
+PICS = (environ.get('PICS', 'https://envs.sh/3ut.jpg https://envs.sh/3uS.jpg https://envs.sh/3uB.jpg')).split()
 POST_CHANNELS = list(map(int, (channel.strip() for channel in environ.get('POST_CHANNELS', '-1001829897427').split(','))))
 
 # Admins, Channels & Users
@@ -58,7 +58,7 @@ AUTO_DEL = int(120)
 AUTO_DEL_MODE=True
 PM_DEL = int(120)
 
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002693804573'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001527063961'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '@CT_Arena')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "True")), False)
