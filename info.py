@@ -36,10 +36,10 @@ AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 # MongoDB information
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'CT-Files')
-DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://CT1:CT1@cluster0.oajnwow.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://CTuri:CTuri@cluster0.ea3icvk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_URI3 = environ.get('DATABASE_URI3', "mongodb+srv://CT2:CT2@cluster0.yrruyqr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_URI4 = environ.get('DATABASE_URI4', "mongodb+srv://CT3:CT3@cluster0.r56lnw6.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://CTV2:CTV2@cluster0.ckjel8s.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://CTV1:CTV1@cluster0.g80kimg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI3 = environ.get('DATABASE_URI3', "mongodb+srv://CTV3:CTV3@cluster0.uzdu7vw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster")
+DATABASE_URI4 = environ.get('DATABASE_URI4', "mongodb+srv://CTV4:CTV4@cluster0.gm7unn0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 # FSUB
 BEFORE_REQ_TEXT = environ.get('BEFORE_REQ_TEXT', "Sending file...")
