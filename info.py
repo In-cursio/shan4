@@ -14,7 +14,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_searcher')
 API_ID = int(environ.get('API_ID', '1436542'))
 API_HASH = environ.get('API_HASH', 'ace9d0fb8f46300776a985ca357bdfff')
-BOT_TOKEN="8055760160:AAFVOatsbwtMvSNj7T_-JlxqFl8l9L5aLDM"
+BOT_TOKEN="8055760160:AAESsx15f-F-NcBtwpoJq7NqB2XZ-Uu0riM"
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -23,7 +23,7 @@ PICS = (environ.get('PICS', 'https://envs.sh/3ut.jpg https://envs.sh/3uS.jpg htt
 POST_CHANNELS = list(map(int, (channel.strip() for channel in environ.get('POST_CHANNELS', '-1001829897427').split(','))))
 
 # Admins, Channels & Users
-OWNER_ID = environ.get('OWNER_ID', '6874351976')
+OWNER_ID = environ.get('OWNER_ID', '800422840')
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5732252796 800422840 6874351976 6047510747').split()] 
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001541833234 -1002468466489 -1001183379468 -1001765720202').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
@@ -36,10 +36,10 @@ AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 # MongoDB information
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'chopper')
-DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://chopper1:chopper1@cluster0.rwpih.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://chopper2:chopper2@cluster0.nd5qt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_URI3 = environ.get('DATABASE_URI3', "mongodb+srv://chopper3:chopper3@cluster0.dnqle.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_URI4 = environ.get('DATABASE_URI4', "mongodb+srv://chopper4:chopper4@cluster0.wwcqp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://CT1:CT1@cluster0.oajnwow.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://CTuri:CTuri@cluster0.ea3icvk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI3 = environ.get('DATABASE_URI3', "mongodb+srv://CT2:CT2@cluster0.yrruyqr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI4 = environ.get('DATABASE_URI4', "mongodb+srv://CT3:CT3@cluster0.r56lnw6.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 # FSUB
 BEFORE_REQ_TEXT = environ.get('BEFORE_REQ_TEXT', "Sending file...")
