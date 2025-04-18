@@ -14,7 +14,7 @@ from plugins.web_support import web_server
 from dotenv import load_dotenv
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 
-PORT = "8300" 
+PORT = "8350" 
 # Get logging configurations
 logging.config.fileConfig('logging.conf')
 logging.getLogger().setLevel(logging.INFO)
