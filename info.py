@@ -19,7 +19,7 @@ BOT_TOKEN="8055760160:AAEW2RlimGCxbWBaclkBs3CbHuM-75eXEig"
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = False 
-PICS = (environ.get('PICS', 'https://envs.sh/3ut.jpg https://envs.sh/3uS.jpg https://envs.sh/3uB.jpg')).split()
+PICS = (environ.get('PICS', 'https://envs.sh/3ut.jpg?text=ilovSTARLEY https://envs.sh/YnW.jpg?text=ilovSTARLEY https://envs.sh/YnS.jpg?text=ilovSTARLEY https://envs.sh/Yn0.jpg?text=ilovSTARLEY https://envs.sh/Ynq.jpg?text=ilovSTARLEY')).split()
 POST_CHANNELS = list(map(int, (channel.strip() for channel in environ.get('POST_CHANNELS', '-1001829897427').split(','))))
 
 # Admins, Channels & Users
