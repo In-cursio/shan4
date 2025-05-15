@@ -14,7 +14,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_searcher')
 API_ID = int(environ.get('API_ID', '1436542'))
 API_HASH = environ.get('API_HASH', 'ace9d0fb8f46300776a985ca357bdfff')
-BOT_TOKEN="7717914707:AAGqdE5pPQ86H9KuDtiBm9Wm3pmv1gcY1Os"
+BOT_TOKEN="7543937424:AAGYKTAmCj85N-48R92mkTfbmHwrRCNmKAY"
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -36,10 +36,10 @@ AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 # MongoDB information
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'CT-Files')
-DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://CTV2:CTV2@cluster0.ckjel8s.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://CTV1:CTV1@cluster0.g80kimg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_URI3 = environ.get('DATABASE_URI3', "mongodb+srv://CTV3:CTV3@cluster0.uzdu7vw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_URI4 = environ.get('DATABASE_URI4', "mongodb+srv://CTV4:CTV4@cluster0.gm7unn0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://chopperv2db2:chopperv2db2@cluster0.8fcg1hf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://chopperv2db1:chopperv2db1@cluster0.vfxwmoz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI3 = environ.get('DATABASE_URI3', "mongodb+srv://chopperv2db3:chopperv2db3@cluster0.gysrhid.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI4 = environ.get('DATABASE_URI4', "mongodb+srv://chopperv2db4:chopperv2db4@cluster0.hpj5c9h.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 # FSUB
 BEFORE_REQ_TEXT = environ.get('BEFORE_REQ_TEXT', "Sending file...")
@@ -58,7 +58,7 @@ AUTO_DEL = int(120)
 AUTO_DEL_MODE=True
 PM_DEL = int(120)
 
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001527063961'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002584403070'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '@CT_Arena')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "True")), False)
